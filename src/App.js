@@ -30,9 +30,9 @@ export function About() {
 export function History() {
   return (
     <div>
-        <h1>Our History</h1>
+      <h1>Our History</h1>
     </div>
-  )
+  );
 }
 
 export function Contact() {

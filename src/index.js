@@ -1,11 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-import { 
-  App, 
-  About, 
-  Contact, 
-  History 
+import {
+  App,
+  About,
+  Contact,
+  History
 } from "./App";
 import {
   BrowserRouter,
@@ -18,11 +18,11 @@ ReactDOM.render(
     <Routes>
       <Route path="/" element={<App />} />
       <Route path="/about" element={<About />}>
-          <Route 
-          path="history" 
+        <Route
+          path="history"
           element={<History />}
-          />
-        </Route>
+        />
+      </Route>
       <Route
         path="/contact"
         element={<Contact />}
